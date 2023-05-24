@@ -29,7 +29,7 @@ const authGuardSettings = {
 
   email: true, // allow authentication with email
   phone: false, // allow authentication with phone
-  google: false, // allow authentication with gmail account
+  google: true, // allow authentication with gmail account
   facebook: false, // allow authentication with facebook account
 
   verification: false, // require user email to be verified before granting access
